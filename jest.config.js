@@ -14,7 +14,7 @@ const customJestConfig = {
   moduleDirectories: ["node_modules", "<rootDir>/"],
   testEnvironment: "jest-environment-jsdom",
   moduleNameMapper: {
-    "\\.mdx?$": "<rootDir>/__mocks__/mdxMock.js",
+    "\\.mdx?$": "<rootDir>/src/__mocks__/mdxMock.js",
   },
 };
 
