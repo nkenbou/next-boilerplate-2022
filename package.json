@@ -9,6 +9,7 @@
     "lint": "next lint",
     "test": "jest --watch",
     "storybook": "start-storybook -p 6006",
+    "screenshot": "storycap http://localhost:9009 --serverTimeout 60000 --serverCmd \"start-storybook -p 9009\"",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -41,6 +42,7 @@
     "jest-environment-jsdom": "^28.1.2",
     "prettier": "^2.7.1",
     "storybook-addon-next": "^1.6.7",
+    "storycap": "^3.1.9",
     "typescript": "4.7.4"
   },
   "resolutions": {
