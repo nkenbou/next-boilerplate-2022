@@ -9,8 +9,9 @@
     "lint": "next lint",
     "test": "jest --watch",
     "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
     "screenshot": "storycap http://localhost:9009 --serverTimeout 60000 --serverCmd \"start-storybook -p 9009\"",
-    "build-storybook": "build-storybook"
+    "regression": "reg-suit run"
   },
   "dependencies": {
     "next": "12.2.0",
@@ -41,6 +42,9 @@
     "jest": "^28.1.2",
     "jest-environment-jsdom": "^28.1.2",
     "prettier": "^2.7.1",
+    "reg-keygen-git-hash-plugin": "^0.12.1",
+    "reg-publish-s3-plugin": "^0.12.1",
+    "reg-suit": "^0.12.1",
     "storybook-addon-next": "^1.6.7",
     "storycap": "^3.1.9",
     "typescript": "4.7.4"
