@@ -472,8 +472,174 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
 </article>
 `;
 
-exports[`Storyshots atoms/Label デフォルト 1`] = `
-<p>
-  aiueo
-</p>
+exports[`Storyshots components/atoms/Textbox Hover 1`] = `
+<input
+  className="module"
+  type="text"
+/>
+`;
+
+exports[`Storyshots components/atoms/Textbox Template 1`] = `
+<input
+  className="module"
+  type="text"
+/>
+`;
+
+exports[`Storyshots components/molecules/TextboxWithCounter 3文字入力 1`] = `
+<div
+  style={
+    Object {
+      "padding": "24px",
+    }
+  }
+>
+  <div
+    className="module"
+  >
+    <fieldset>
+      <label>
+        <span
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          姓名
+        </span>
+        <input
+          aria-invalid={false}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+    </fieldset>
+    <footer>
+      <span>
+        0
+        /
+        5
+      </span>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`Storyshots components/molecules/TextboxWithCounter ツールチップ表示 1`] = `
+<div
+  style={
+    Object {
+      "padding": "24px",
+    }
+  }
+>
+  <div
+    className="module"
+  >
+    <fieldset>
+      <span
+        aria-hidden={true}
+        role="tooltip"
+      >
+        空白を入れずに入力してください
+      </span>
+      <label>
+        <span
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          姓名
+        </span>
+        <input
+          aria-invalid={false}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+    </fieldset>
+    <footer>
+      <span>
+        0
+        /
+        5
+      </span>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`Storyshots components/molecules/TextboxWithCounter 初期表示 1`] = `
+<div
+  style={
+    Object {
+      "padding": "24px",
+    }
+  }
+>
+  <div
+    className="module"
+  >
+    <fieldset>
+      <label>
+        <span
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          姓名
+        </span>
+        <input
+          aria-invalid={false}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+    </fieldset>
+    <footer>
+      <span>
+        0
+        /
+        5
+      </span>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`Storyshots components/molecules/TextboxWithCounter 文字数制限オーバー 1`] = `
+<div
+  style={
+    Object {
+      "padding": "24px",
+    }
+  }
+>
+  <div
+    className="module"
+  >
+    <fieldset>
+      <label>
+        <span
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          姓名
+        </span>
+        <input
+          aria-invalid={false}
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+    </fieldset>
+    <footer>
+      <span>
+        0
+        /
+        5
+      </span>
+    </footer>
+  </div>
+</div>
 `;
