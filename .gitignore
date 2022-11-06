@@ -35,5 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 
 # visual regression test
-__screenshots__
-.reg
+/.reg/actual
+/.reg/out.json
+/.reg/index.html
